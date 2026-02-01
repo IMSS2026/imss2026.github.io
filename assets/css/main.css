@@ -99,11 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #e37682;
-		/*background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #4169E1 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #4169E1 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #4169E1 85%);*/
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #e37682 85%);
+		background-color: #0b1c2d;   /* pick any single color you want */
+		background-image: none;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +117,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #6495ED;
+		background-color: #0b1c2d;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3799,4 +3796,51 @@ input, select, textarea {
   overflow: hidden;
 	max-height: 0;
   transition: max-height 0.2s ease-out;
+}
+
+.speaker-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.speaker-photo {
+    width: 300px;
+    flex-shrink: 0;   /* prevents image from collapsing */
+    border-radius: 20px;
+}
+
+.speaker-text h2 {
+    margin-top: 0;
+}
+
+.speaker-text {
+    text-align: justify;
+}
+
+#about h4 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* UCL logo above about paragraph */
+.ucl-logo-wrapper {
+    text-align: left;
+    margin-bottom: 1.2em;
+}
+
+.ucl-logo {
+    width: 200px;      /* adjust this */
+    max-width: 80%;
+    height: auto;
+}
+
+/* Location image size */
+#location img.location-image {
+  width: 200px !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 1.5em auto 0 auto;
+  border-radius: 10px;
 }
