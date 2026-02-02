@@ -3835,16 +3835,10 @@ input, select, textarea {
     height: auto;
 }
 
-/* Location image size */
 #location img.location-image {
-  width: 200px !important;
-  max-width: 100% !important;
-  height: auto !important;
+  width: 600px;
+  height: auto;
   display: block;
-  margin: 1.5em auto 0 auto;
+  margin: 1.5em auto 0;
   border-radius: 10px;
-}
-
-#location img.location-image {
-  display: inline-block;
 }
