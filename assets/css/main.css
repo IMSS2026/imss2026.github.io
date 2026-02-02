@@ -3844,3 +3844,7 @@ input, select, textarea {
   margin: 1.5em auto 0 auto;
   border-radius: 10px;
 }
+
+#location img.location-image {
+  display: inline-block;
+}
