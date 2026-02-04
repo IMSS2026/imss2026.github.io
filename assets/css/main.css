@@ -3883,3 +3883,12 @@ input, select, textarea {
     text-align: left; /* or center if you prefer */
   }
 }
+
+.support-image {
+  width: 120px;        /* small image */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto 0; /* spacing + centered */
+  opacity: 0.9;       /* optional, subtle */
+}
