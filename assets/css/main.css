@@ -3843,6 +3843,15 @@ input, select, textarea {
   border-radius: 10px;
 }
 
+.instructions-preview {
+  width: min(100%, 800px);
+  height: auto;
+  display: block;
+  margin: 1.5em auto 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
 /* Speaker layout */
 .speaker-row {
   display: flex;
